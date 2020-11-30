@@ -25,7 +25,7 @@ _PCF_BYTE_MASK = 1 << 2  # If set then Most Sig Byte First */
 _PCF_BIT_MASK = 1 << 3  # If set then Most Sig Bit First */
 _PCF_SCAN_UNIT_MASK = 3 << 4
 
-# https://fontforge.github.io/en-US/documentation/reference/pcf-format/
+# https://fontforge.org/docs/techref/pcf-format.html
 
 
 class PCF(GlyphCache):
